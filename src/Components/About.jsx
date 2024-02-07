@@ -16,7 +16,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +23,25 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "As a Software Engineer and Full Stack JavaScript Developer, I'm passionate about creating scalable and robust web applications. My skill set includes expertise in various stacks such as JamStack, MERN Stack, and PERN Stack. I thrive in utilizing technologies like ReactJS, NextJS, NodeJS, ExpressJS, React Native, and NestJS. Additionally, I'm well-versed in working with SQL and NoSQL databases, along with Firebase / Firestore.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "React Native",
+  "Nest.js",
+  "MongoDB",
+  "Firebase",
+  "Firestore",
+  "PostgreSQL",
+  "GraphQL",
+  "RESTful APIs",
 ];
 
 /**
@@ -44,13 +49,16 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = "Building Tech to Elevate people";
 
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      <img
+        className="background"
+        src="https://c4.wallpaperflare.com/wallpaper/645/885/158/mikasa-ackerman-scarf-shingeki-no-kyojin-anime-girls-wallpaper-preview.jpg"
+        alt={imageAltText}
+      />
       <div
         style={{
           backgroundColor: "white",
