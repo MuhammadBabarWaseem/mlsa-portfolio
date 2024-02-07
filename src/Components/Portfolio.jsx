@@ -19,7 +19,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +30,21 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Text Util App 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "I have created a frontend app with react js named as text util and for the framework i have used bootstrap with a feature of dark mode, in which we can play with the text like, count the letter, words, change to uppercase, lowercase, copy text, delete extra spaces etc.",
+    url: "https://react-text-util.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Catstronaut Project",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The project, built on Apollo GraphQL, provides a comprehensive exploration of GraphQL and Apollo basics. It covers essential elements such as understanding the GraphQL and Apollo ecosystem, designing a schema, and implementing an Apollo Server connected to a REST data source. The project extends to the practical application in a React app, incorporating features like resolvers, arguments, mutations, and best practices for shaping mutation responses and handling errors. ",
+    url: "https://lift-off-client-demo.netlify.app/",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    description: "Created a portfolio using react and hosted on vercel",
+    url: "https://mbabarwaseem.vercel.app/project",
   },
 ];
 
@@ -63,7 +55,7 @@ const Portfolio = () => {
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
-            src={image}
+            src="https://c4.wallpaperflare.com/wallpaper/788/416/929/anime-anime-boys-jujutsu-kaisen-hd-wallpaper-preview.jpg"
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
